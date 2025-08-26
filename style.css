@@ -9,3 +9,33 @@
     --cor-branco: #ffffff;
     --cor-preto: #000000;
 }
+#body {
+    background-color: var(--cor-azulclaro);
+}
+
+#rodape {
+    background-color: var(--cor-escura);
+    color: var(--cor-branco);
+}
+
+#ancora {
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-size: 20px;
+    transition:  color 0.3s ease;
+}
+#ancora:hover {
+    color: var(--cor-principal);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+:root {
+    --cor-principal: #74e3dd;
+    --cor-escuro: #334b49;
+    --cor-secundaria: #95b1ae;
+    --cor-azulclaro: #afc5ff;
+    --cor-azulescuro: #7890cb;
+    --cor-branco: #ffffff;
+    --cor-preto: #000000;
+}
