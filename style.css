@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-principal: #74e3dd;
-    --cor-escuro: #334b49;
-    --cor-secundaria: #95b1ae;
-    --cor-azulclaro: #afc5ff;
-    --cor-azulescuro: #7890cb;
-    --cor-branco: #ffffff;
+    --cor-principal: #26eac5;
+    --cor-escura: #354b45;
+    --cor-cinza: #98b0a9;
+    --cor-azulclaro: #3bbdff;
+    --cor-azulescuro: #0088dd;
     --cor-preto: #000000;
+    --cor-branco: #FFFFFF;
 }
+
 #body {
     background-color: var(--cor-azulclaro);
 }
@@ -30,12 +31,6 @@
     text-decoration: underline;
 }
 
-:root {
-    --cor-principal: #74e3dd;
-    --cor-escuro: #334b49;
-    --cor-secundaria: #95b1ae;
-    --cor-azulclaro: #afc5ff;
-    --cor-azulescuro: #7890cb;
-    --cor-branco: #ffffff;
-    --cor-preto: #000000;
+.habilidades {
+    text-decoration: none;
 }
